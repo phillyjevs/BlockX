@@ -1,10 +1,6 @@
 # BlockX Data Instructions for Home Mining with a VPN
 This guide aims to provide basic instructions for setting up a Virtual Private Network (VPN) for a Bitcoin home mining operation. There are several steps involved and setting up a VPN is not intuitive, however, this guide outlines the process step by step. So follow along and by the end you will have all the information you need to make your home network more secure and private. 
 
-<p align="center">
-  <img src="assets/TitleImage.jpg">
-</p>       
-
 ## Scope
 Bitcoin mining is carried out over a Stratum v1 protocol, which is un-encrypted and clear text internet traffic. This means that your Internet Service Provider (ISP) by default can not only see exactly what data is in your internet traffic but they can also see where that traffic is going, i.e., which mining pool you connect to. Likewise, the mining pool can see your Internet Protocol address (IP address), which can reveal who your ISP is and your approximate geographic location. Unless you take actions to guard your privacy then you are risking the security of your home mining operation. A few things that could go wrong without taking these precautions:
 
